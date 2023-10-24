@@ -1,0 +1,8 @@
+sources:
+  - name: Snowflake_Sample
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+    tables:
+      - name: CUSTOMER
+      - name: ORDER
+      
