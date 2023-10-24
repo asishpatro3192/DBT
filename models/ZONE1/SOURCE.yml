@@ -5,4 +5,5 @@ sources:
     tables:
       - name: CUSTOMER
       - name: ORDERS
+      - name: LINEITEM
       
