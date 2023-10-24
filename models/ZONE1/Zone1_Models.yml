@@ -1,5 +1,5 @@
 models:
-  - name: dim_customer
+  - name: DIM_CUSTOMER
     description: "Customer Dimension"
     columns:
       - name: c_custkey
@@ -34,7 +34,7 @@ models:
         data_type: varchar
         description: "comment"
 
-  - name: fct_lineitem
+  - name: FCT_LINEITEM
     description: ""
     columns:
       - name: l_orderkey
@@ -101,7 +101,7 @@ models:
         data_type: varchar
         description: ""
 
-  - name: fct_order
+  - name: FCT_ORDER
     description: ""
     columns:
       - name: o_orderkey
