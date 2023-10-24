@@ -4,5 +4,6 @@ sources:
     schema: TPCH_SF1
     tables:
       - name: CUSTOMER
-      - name: ORDER
+      - name: ORDERS
+      - name: LINEITEM
       

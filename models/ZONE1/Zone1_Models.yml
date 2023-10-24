@@ -1,0 +1,141 @@
+models:
+  - name: dim_customer
+    description: "Customer Dimension"
+    columns:
+      - name: c_custkey
+        data_type: number
+        description: "Unique key"
+
+      - name: c_name
+        data_type: varchar
+        description: "Customer Name"
+
+      - name: c_address
+        data_type: varchar
+        description: "Customer Address"
+
+      - name: c_nationkey
+        data_type: number
+        description: ""
+
+      - name: c_phone
+        data_type: varchar
+        description: "Phone number"
+
+      - name: c_acctbal
+        data_type: number
+        description: "balance amount"
+
+      - name: c_mktsegment
+        data_type: varchar
+        description: ""
+
+      - name: c_comment
+        data_type: varchar
+        description: "comment"
+
+  - name: fct_lineitem
+    description: ""
+    columns:
+      - name: l_orderkey
+        data_type: number
+        description: ""
+
+      - name: l_partkey
+        data_type: number
+        description: ""
+
+      - name: l_suppkey
+        data_type: number
+        description: ""
+
+      - name: l_linenumber
+        data_type: number
+        description: ""
+
+      - name: l_quantity
+        data_type: number
+        description: ""
+
+      - name: l_extendedprice
+        data_type: number
+        description: ""
+
+      - name: l_discount
+        data_type: number
+        description: ""
+
+      - name: l_tax
+        data_type: number
+        description: ""
+
+      - name: l_returnflag
+        data_type: varchar
+        description: ""
+
+      - name: l_linestatus
+        data_type: varchar
+        description: ""
+
+      - name: l_shipdate
+        data_type: date
+        description: ""
+
+      - name: l_commitdate
+        data_type: date
+        description: ""
+
+      - name: l_receiptdate
+        data_type: date
+        description: ""
+
+      - name: l_shipinstruct
+        data_type: varchar
+        description: ""
+
+      - name: l_shipmode
+        data_type: varchar
+        description: ""
+
+      - name: l_comment
+        data_type: varchar
+        description: ""
+
+  - name: fct_order
+    description: ""
+    columns:
+      - name: o_orderkey
+        data_type: number
+        description: ""
+
+      - name: o_custkey
+        data_type: number
+        description: ""
+
+      - name: o_orderstatus
+        data_type: varchar
+        description: ""
+
+      - name: o_totalprice
+        data_type: number
+        description: ""
+
+      - name: o_orderdate
+        data_type: date
+        description: ""
+
+      - name: o_orderpriority
+        data_type: varchar
+        description: ""
+
+      - name: o_clerk
+        data_type: varchar
+        description: ""
+
+      - name: o_shippriority
+        data_type: number
+        description: ""
+
+      - name: o_comment
+        data_type: varchar
+        description: ""
