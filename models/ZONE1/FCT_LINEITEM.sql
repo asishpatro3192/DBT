@@ -1,10 +1,11 @@
 {{ config(
-    database=env_var('DBT_DATABASE')
+    database=env_var('DBT_DATABASE'),
+    persist_docs={"relation": true, "columns": true}
 )}}
 
 with source as (
 
-    select * from {{ source('Snowflake_Sample', 'LINEITEM') }}
+    select * from {{ source('Snowflake_Sample', 'LINEITEM_ALIAS') }}
 
 ),
 
